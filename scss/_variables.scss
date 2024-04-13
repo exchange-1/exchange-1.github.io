@@ -1,0 +1,39 @@
+//Colors
+
+$white: #ffffff;
+$black: #000000;
+$darkPurple: rgb(52, 40, 60);
+$darkeBlue: midnightblue;
+$whiteBlue: #06c;
+
+//Fonts Sizes
+$font-ml: 0.75rem; // 12px
+$font-sm: 0.875rem; // 14px
+$font-ms: 1rem; // 16px
+$font-mx: 1.15rem; // 16px
+$font-md: 1.4rem; // 18px
+
+$font-xl: 1.5rem; // 24px
+$font-sxl:1.75rem; // 28px
+$font-sxxl:2rem; // 36px
+$font-xxl:2.5rem; // 36px
+$font-xxxl: 3rem; // 48px
+$font-bxxxl: 5rem; // 48px
+
+
+%tpltext-ml {
+  color:#f5f5f7;
+  opacity: 0.9;
+  font-size: $font-ms;
+  font-weight: 300;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+
+  cursor: pointer;
+}

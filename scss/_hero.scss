@@ -1,0 +1,144 @@
+
+
+.hero__container {
+    background-color: #eeeeee;
+}
+.hero__down {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.hero__down-block {
+    max-width: 605px;
+    margin: 0 50px;
+    
+}
+
+.hero__down-p {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.63;
+
+   }
+   .hero__down-p::before {
+    content: "";
+    position: absolute;
+    background-image: url(/img/icons/dot.svg);
+    width: 7px;
+    height: 7px;
+    border-radius: 50px;
+    background-color: #000;
+    top: 13px;
+    left: -28px;
+      
+  }
+
+.hero__down-text {
+    max-width: 560px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.85;
+}
+
+
+.exterior-odd {
+    display: flex;
+    justify-content: space-around;
+}
+    
+
+.exterior-odd__head {
+    font-size: 30px;
+    position: relative;
+    margin: 0px 11px 30px 27px;
+
+}
+
+
+    .exterior-odd__head::before {
+        content: "";
+        position: absolute;
+        background-image: url(/img/icons/dot.svg);
+        width: 9px;
+        height: 9px;
+        border-radius: 100px;
+        background-color: #000;
+        top: 13px;
+        left: -18px;
+    }
+
+    .exterior-odd__p {
+        font-size: 20px;
+        line-height: 1.95;
+    }
+
+    .exterior-odd__left {
+        max-width: 460px;
+        
+        font-weight: 300;
+    }
+
+    .exterior-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .exterior {
+        padding: 50px;
+    }
+
+
+
+
+ 
+    .exterior-odd__swiper {
+        height: 100%;
+        width: 100%;
+    }
+
+   
+
+    .exterior-odd__path {
+        width: 100%;
+        height: 570px;
+        background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    
+    .exterior-odd-1 {
+        background-image: url(/img/Slider-1/1.jpeg);
+    }
+
+    .exterior-odd-2 {
+        background-image: url(/img/Slider-1/2.jpeg);
+    }
+    .exterior-odd-3 {
+        background-image: url(/img/Slider-1/3.jpeg);
+    }
+    .exterior-odd-4 {
+        background-image: url(/img/Slider-1/4.jpeg);
+    }
+    .exterior-odd-5 {
+        background-image: url(/img/Slider-1/5.jpeg);
+    }
+    .exterior-odd-6 {
+        background-image: url(/img/Slider-1/6.jpeg);
+    }
+    .exterior-odd-7 {
+        background-image: url(/img/Slider-1/7.jpeg);
+    }
+    .exterior-odd-8 {
+        background-image: url(/img/Slider-1/8.jpeg);
+    }
+    .exterior-odd-9 {
+        background-image: url(/img/Slider-1/9.jpeg);
+    }
+    .exterior-odd-10 {
+        background-image: url(/img/Slider-1/10.jpeg);
+    }
+    .exterior-odd-11 {
+        background-image: url(/img/Slider-1/11.jpeg);
+    }
